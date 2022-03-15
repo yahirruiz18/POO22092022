@@ -39,6 +39,9 @@ public class ConceptosBasicos {
         System.out.println( miAkura );
         
         //el objetivo de un metodo especia constructor es crear el objeto en memoria
+        //los contructores sobrecargados sirven para inicializar valores
+        //cuando se menciona una instancia se refieren a una clase es decir una instancia de la clase silla es el 1 en este codigo y realente se quiere decir un ejemplar de la clase mibocho, miAkura, miMustang son ejemplos
+        
         // TODO code application logic here
     }
     
