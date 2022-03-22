@@ -41,6 +41,9 @@ public class Alumno extends Persona {
     public void setNumeroDeCuenta(String numeroDeCuenta) {
         this.numeroDeCuenta = numeroDeCuenta;
     }
-    
+    @Override
+    public String toString() {
+        return super.toString() + "Alumno{" + "numeroCuenta=" + numeroDeCuenta + ", carrera=" + carrera + '}';
+    }
     
 }
