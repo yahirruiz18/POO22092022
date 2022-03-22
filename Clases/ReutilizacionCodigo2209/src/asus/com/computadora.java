@@ -22,6 +22,11 @@ public class computadora {
     private Procesador cpu;
 
     public computadora() {
+       // pantalla = new Monitor();
+        //raton = new Mouse();
+        //teclado = new Teclado();
+        //cpu = new Procesador();
+        
     }
 
     public computadora(String marca, String modelo, Monitor pantalla, Mouse raton, Teclado teclado, Procesador cpu) {
@@ -31,6 +36,10 @@ public class computadora {
         this.raton = raton;
         this.teclado = teclado;
         this.cpu = cpu;
+    }
+
+    public computadora(String apple, String macbook, Monitor monitor) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     public Procesador getCpu() {
@@ -83,6 +92,10 @@ public class computadora {
 
     @Override
     public String toString() {
+        /*String estado = "marca: " + this.marca + "\n";
+        estado = estado + "Modelo: " + this.modelo + "\n";
+        estado = estado + "raton: Marca" +
+        return estado; */
         return "computadora{" + "marca=" + marca + ", modelo=" + modelo + ", pantalla=" + pantalla + ", raton=" + raton + ", teclado=" + teclado + ", cpu=" + cpu + '}';
     }
     

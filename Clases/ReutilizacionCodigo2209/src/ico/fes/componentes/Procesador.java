@@ -20,6 +20,10 @@ public class Procesador {
         this.frecuenciaEnGhz = frecuenciaEnGhz;
     }
 
+    public Procesador(String m1) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public float getFrecuenciaEnGhz() {
         return frecuenciaEnGhz;
     }

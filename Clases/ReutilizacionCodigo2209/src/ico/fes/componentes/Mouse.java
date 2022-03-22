@@ -20,6 +20,10 @@ public class Mouse {
         this.tipo = tipo;
     }
 
+    public Mouse(String acteck) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public String getTipo() {
         return tipo;
     }
