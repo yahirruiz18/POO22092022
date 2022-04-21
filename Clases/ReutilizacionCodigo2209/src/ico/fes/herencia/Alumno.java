@@ -45,5 +45,19 @@ public class Alumno extends Persona {
     public String toString() {
         return super.toString() + "Alumno{" + "numeroCuenta=" + numeroDeCuenta + ", carrera=" + carrera + '}';
     }
+    public void estudiar(){
+        System.out.println(this.getNombre()+ " está estudiando ");
+    }
+    //polimorfismo por sobre escritura
+    @Override
+    public void dormir(){
+        System.out.println("El estudiante " + getNombre() + " está durmiendo");
+    }
+    //polimorfismo por sobrecarga
     
+    public void dormir( int horasEstudio ){
+        int horasDormir = 8;
+        System.out.println( this.getNombre() 
+                + " esta duermiendo " + (horasDormir - horasEstudio) + " Horas" );
+    }
 }
