@@ -6,6 +6,9 @@ package javabasico2209;
 
 //import javax.swing.JOptionPane;
 
+import java.util.ArrayList;
+
+
 /**
  *
  * @author Valeria
@@ -138,6 +141,29 @@ public class JavaBasico2209 {
         for (Alumno alumno : lista) {
             System.out.println(alumno.evaluarDesempeño());
         }
+        
+
+        
+          System.out.println("----------ARRAY LIST-------");
+        ArrayList<Alumno> grupo2209= new ArrayList<>();
+        grupo2209.add(new Alumno("99999", 2, 9.0f));
+        grupo2209.add(new Alumno("88888", 2, 8.0f));
+        grupo2209.add(new Alumno("77777", 2, 7.0f));
+        grupo2209.add(new Alumno("66666", 2, 6.0f));
+        grupo2209.add(new Alumno("55555", 2, 5.0f));
+        for (Alumno alumno : grupo2209) {
+            System.out.println(alumno);
+        }
+        System.out.println("add con indice");
+        grupo2209.add(2, new Alumno(cadena, 0, 0));
+        
+        for (Alumno alumno : grupo2209) {
+            System.out.println(alumno);
+            
+        }
+        
+        Alumno tmp = grupo2209.get(3);
+        System.out.println("alumno en index = 1" + tmp);
         
     }
         
