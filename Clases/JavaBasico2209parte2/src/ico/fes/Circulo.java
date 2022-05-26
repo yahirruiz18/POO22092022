@@ -8,6 +8,7 @@ package ico.fes;
  *
  * @author yahir
  */
+//JAVA Bean(antes), POJO(ahora) Es diferente a los EJB Enterprise Java Beans
 public class Circulo implements Figura{
     
     private float radio;
@@ -46,5 +47,3 @@ public class Circulo implements Figura{
     
     
 }
-
-

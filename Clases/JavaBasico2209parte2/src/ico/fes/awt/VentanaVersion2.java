@@ -87,6 +87,7 @@ public class VentanaVersion2 extends Frame{
         
     }
     
-}    
     
     
+    
+}

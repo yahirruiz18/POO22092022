@@ -4,7 +4,6 @@
  */
 package ico.fes.awt;
 
-
 import java.awt.Button;
 import java.awt.FlowLayout;
 import java.awt.Frame;
@@ -19,7 +18,6 @@ import java.awt.event.MouseListener;
  *
  * @author yahir
  */
-
 public class Ventana extends Frame implements MouseListener{
     
     private String titulo;
@@ -94,7 +92,7 @@ public class Ventana extends Frame implements MouseListener{
     public void mouseExited(MouseEvent me) {
         //System.out.println("El cursor salió del componente ");
     }
-}
+
 
     
-
+}

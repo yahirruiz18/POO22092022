@@ -3,12 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
 package ico.fes.herencia;
-
 /**
  *
  * @author yahir
  */
 public interface Artista {
-        public abstract void ensayar();
-        public abstract void presentar();
+    
+    public abstract void ensayar();
+    public abstract void presentar();
+    
 }

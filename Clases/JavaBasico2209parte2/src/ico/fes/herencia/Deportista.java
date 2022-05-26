@@ -9,6 +9,8 @@ package ico.fes.herencia;
  * @author yahir
  */
 public interface Deportista {
-       public abstract void entrenar();
-       public abstract void jugar();
+    
+    public abstract void entrenar();
+    public abstract void jugar();
+    
 }

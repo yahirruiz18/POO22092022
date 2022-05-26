@@ -3,13 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ico.fes;
-
 /**
  *
  * @author yahir
  */
-
-    public class Cuadrado implements Figura {
+public class Cuadrado implements Figura {
     
     private float lado;
 
@@ -42,5 +40,3 @@ package ico.fes;
     
     
 }
-    
-    

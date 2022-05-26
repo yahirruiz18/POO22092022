@@ -41,12 +41,13 @@ public class Aritmetica {
         return "Aritmetica{" + "a=" + a + ", b=" + b + '}';
     }
     
-    public int sumar(){
+    public int sumar() {
         return this.a + this.b;
     }
     
+    //throws << Para calificar excepcion numerica >>
     public int dividir() throws ArithmeticException{
-        return this.a  / this.b;
+       return this.a/this.b;
     }
     
 }
